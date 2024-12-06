@@ -1,5 +1,5 @@
 # 🎧 JBL Inspiration
-Site vitrine mettant en avant un casque de la marque JBL
+Site vitrine d'une page produit mettant en avant un casque de la marque JBL
 
 ## ▶️ DESCRIPTION
 **📄 Présentation**
