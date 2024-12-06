@@ -16,6 +16,7 @@ Site vitrine mettant en avant un casque de la marque JBL
 - **[Icons](https://remixicon.com/)**
 - **[Google Fonts - *"Poppins"*](https://fonts.google.com/specimen/Poppins)**
 - **[JS Functions](https://github.com/bedimcode/responsive-watches-website/blob/main/assets/js/main.js)**
+- **[Swiper](https://swiperjs.com/)**
 #####
 
 ## 🔎 Accès au projet - ...
