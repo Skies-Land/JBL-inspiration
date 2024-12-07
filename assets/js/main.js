@@ -83,3 +83,20 @@ window.addEventListener('scroll', scrollActive)
 
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duratiopn: 2500,
+    delay: 400,
+    // reset: true, // Animation repeat
+})
+
+sr.reveal(`.home__social, .favorite__container, .sponsor__container, .footer`)
+sr.reveal(`.home__title span:nth-child(1)`, {origin: 'left', opacity: 1})
+sr.reveal(`.home__title span:nth-child(3)`, {origin: 'right', opacity: 1})
+sr.reveal(`.home__tooltip, .home__button`, {origin: 'bottom'})
+
+sr.reveal(`.model__data-features-title, .model__data-description, .model__data-feature, .model__button`, {origin: 'bottom', interval: 100})
+
+sr.reveal(`.about__data`, {origin: 'left'})
+sr.reveal(`.about__img, .model__tooltip`, {origin: 'right'})

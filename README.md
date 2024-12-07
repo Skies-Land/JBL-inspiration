@@ -17,6 +17,7 @@ Site vitrine d'une page produit mettant en avant un casque de la marque JBL
 - **[Google Fonts - *"Poppins"*](https://fonts.google.com/specimen/Poppins)**
 - **[JS Functions](https://github.com/bedimcode/responsive-watches-website/blob/main/assets/js/main.js)**
 - **[Swiper](https://swiperjs.com/)**
+- **[ScrollReveal](https://scrollrevealjs.org/)**
 #####
 
 ## 🔎 Accès au projet - ...
