@@ -4,6 +4,23 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+      <!--=============== SEO ===============-->
+      <meta name="description" content="Découvrez les produits audio de JBL, y compris les casques, les écouteurs et les accessoires. En savoir plus sur notre entreprise et suivez-nous sur les réseaux sociaux.">
+      <meta name="keywords" content="JBL, audio, casques, écouteurs, accessoires, entreprise, Harman, Samsung">
+      <meta name="author" content="Jonathan Araldi">
+
+      <!-- Meta pour les réseaux sociaux (Open Graph) -->
+      <meta property="og:title" content="JBL Inspiration">
+      <meta property="og:description" content="Découvrez les produits audio de JBL, y compris les casques, les écouteurs et les accessoires.">
+      <meta property="og:image" content="assets/img/home-img.png">
+      <meta property="og:type" content="website">
+
+      <!-- Meta pour Twitter -->
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="JBL Inspiration">
+      <meta name="twitter:description" content="Découvrez les produits audio de JBL, y compris les casques, les écouteurs et les accessoires.">
+      <meta name="twitter:image" content="assets/img/home-img.png">
+
       <!--=============== FAVICON ===============-->
       <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
@@ -22,24 +39,24 @@
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
          <nav class="nav container">
-            <a href="#" class="nav__logo">JBL</a>
+            <a href="#" class="nav__logo" aria-label="Logo du site">JBL</a>
 
             <div class="nav__menu" id="nav-menu">
                <ul class="nav__list">
                   <li class="nav__item">
-                     <a href="#home" class="nav__link active-link">Accueil</a>
+                     <a href="#home" class="nav__link active-link" aria-label="Aller à la section Accueil">Accueil</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="#about" class="nav__link">À propos</a>
+                     <a href="#about" class="nav__link" aria-label="Aller à la section À propos">À propos</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="#favorite" class="nav__link">Favoris</a>
+                     <a href="#favorite" class="nav__link" aria-label="Aller à la section Favoris">Favoris</a>
                   </li>
 
                   <li class="nav__item">
-                     <a href="#model" class="nav__link">Mdèles</a>
+                     <a href="#model" class="nav__link" aria-label="Aller à la section Modèles">Mdèles</a>
                   </li>
                </ul>
 
@@ -76,7 +93,7 @@
                   </div>
                </div>
 
-               <a href="#" class="home__button button">
+               <a href="#" class="home__button button" aria-label="Acheter maintenant">
                   Acheter maintenant
                   <i class="ri-play-circle-fill"></i>
                </a>
@@ -85,15 +102,15 @@
                   <span class="home__social-text">Suivez-nous</span>
 
                   <div class="home__social-links">
-                     <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                     <a href="https://www.instagram.com/" target="_blank" class="home__social-link" aria-label="Visitez notre page Instagram">
                         <i class="ri-instagram-fill"></i>
                      </a>
 
-                     <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                     <a href="https://www.facebook.com/" target="_blank" class="home__social-link" aria-label="Visitez notre page Facebook">
                         <i class="ri-facebook-circle-fill"></i>
                      </a>
 
-                     <a href="https://www.youtube.com/" target="_blank" class="home__social-link">
+                     <a href="https://www.youtube.com/" target="_blank" class="home__social-link" aria-label="Visitez notre chaîne YouTube">
                         <i class="ri-youtube-fill"></i>
                      </a>
                   </div>
@@ -115,7 +132,7 @@
                      de Harman International Industries, une filiale de Samsung Electronics.
                   </p>
 
-                  <a href="#" class="button">
+                  <a href="#" class="button" aria-label="En savoir plus">
                      En savoir plus
                      <i class="ri-information-fill"></i>
                   </a>
@@ -236,7 +253,7 @@
                      </div>
                   </div>
 
-               <a href="#" class="model__button button">
+               <a href="#" class="model__button button" aria-label="Acheter maintenant">
                   Acheter maintenant
                   <i class="ri-play-circle-fill"></i>
                </a>
@@ -325,7 +342,7 @@
                         <i class="ri-facebook-circle-fill"></i>
                      </a>
 
-                     <a href="https://www.youtube.com/" aria-label="Visitez notre page YouTube" target="_blank" class="footer__social-link">
+                     <a href="https://www.youtube.com/" aria-label="Visitez notre chaîne YouTube" target="_blank" class="footer__social-link">
                         <i class="ri-youtube-fill"></i>
                      </a>
                   </div>
@@ -334,7 +351,10 @@
          </div>
 
          <span class="footer__copy">
-            &#169; Tous droits réservés par <br> Jonathan Araldi / <a href="https://github.com/Skies-Land" target="_blank" class="footer__copy-link">SkiesLand</a>
+            &#169; Tous droits réservés par <br> Jonathan Araldi / 
+            <a href="https://github.com/Skies-Land" target="_blank" class="footer__copy-link" aria-label="Visitez le profil GitHub du développeur SkiesLand">
+               SkiesLand
+            </a>
          </span>
       </footer>
 
