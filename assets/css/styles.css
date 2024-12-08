@@ -472,6 +472,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 2rem;
 }
 
 .model__data-description {
@@ -482,6 +483,7 @@ img {
   display: grid;
   align-items: center;
   row-gap: 1.5rem;
+  margin-top: 5rem;
   margin-bottom: 2rem;
 }
 
@@ -503,6 +505,50 @@ img {
 .model__button {
   margin-top: 2rem;
   justify-self: center;
+}
+
+/*=============== TESTIMONIAL ===============*/
+.testimonial {
+  padding-top: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.testimonial__content {
+  width: 220px;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  background-color: var(--container-color);
+  border-radius: .5rem;
+  padding: 2rem 1rem;
+}
+
+.testimonial__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  justify-self: center;
+  margin-bottom: 1.5rem;
+}
+
+.testimonial__client {
+  font-size: var(--small-font-size);
+  margin-top: .75rem;
+  margin-bottom: 1rem;
+}
+
+.testimonial__description {
+  color: var(--text-color);
+  margin-top: .75rem;
+}
+
+.swiper-pagination {
+  position: initial;
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--first-color);
 }
 
 /*=============== SPONSOR ===============*/
@@ -710,7 +756,6 @@ img {
     bottom: 6rem;
   }
 
-
   .sponsor__container {
     gap: 4rem 2rem;
   }
@@ -894,6 +939,11 @@ img {
   .model__data-features {
     grid-template-columns: repeat(3, max-content);
     gap: 6rem;
+  }
+
+  .testimonial__container {
+    max-width: 1100px;
+    margin-inline: auto;
   }
 
   .sponsor__container {

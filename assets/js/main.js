@@ -51,6 +51,28 @@ let swiperFavorite = new Swiper('.favorite__swiper', {
     }
 })
 
+/*=============== SWIPER TESTIMONIAL ===============*/ 
+const swiper = new Swiper (`.testimonial__swiper`, {
+    loop: true,
+    spaceBetween: 36,
+    centeredSlides: 'auto',
+    grabCursor: true,
+
+    pagination: {
+        el: `.swiper-pagination`,
+        clickable: true,
+    },
+
+    breakpoints: {
+        768: {
+            slidesPerView: 2,
+        },
+        1150: {
+            slidesPerView: 3,
+        }
+    }
+});
+
 /*=============== SHOW SCROLL UP ===============*/ 
 const scrollUp = () =>{
 	const scrollUp = document.getElementById('scroll-up')
@@ -91,12 +113,12 @@ const sr = ScrollReveal({
     // reset: true, // Animation repeat
 })
 
-sr.reveal(`.home__social, .favorite__container, .sponsor__container, .footer`)
+sr.reveal(`.home__social, .favorite__container, .model__data, .testimonial__container, .sponsor__container, .footer`)
 sr.reveal(`.home__title span:nth-child(1)`, {origin: 'left', opacity: 1})
 sr.reveal(`.home__title span:nth-child(3)`, {origin: 'right', opacity: 1})
 sr.reveal(`.home__tooltip, .home__button`, {origin: 'bottom'})
 
-sr.reveal(`.model__data-features-title, .model__data-description, .model__data-feature, .model__button`, {origin: 'bottom', interval: 100})
+sr.reveal(`.model__data-features-title, .model__data-description, .model__data-feature, .model__button, .faq__item`, {origin: 'bottom', interval: 100})
 
 sr.reveal(`.about__data`, {origin: 'left'})
 sr.reveal(`.about__img, .model__tooltip`, {origin: 'right'})
